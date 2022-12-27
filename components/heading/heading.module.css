@@ -1,0 +1,54 @@
+.wrapper{
+
+   /* border:1px solid rgba(211, 211, 211, 0.144);*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:8vh ;
+  
+    line-height: 24px
+}
+
+
+
+.logo{
+    /*border:1px blue solid;*/
+font-size: 3em;
+
+
+}
+
+.links{
+
+    border:1px green solid;
+    width:30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.style.li{
+color:brown
+
+}
+.buttonLinks{
+    display: none;
+}
+
+
+@media screen and (max-width: 1500px){
+
+
+.links{
+
+display:none ;
+}
+
+.buttonLinks{
+    display: block;
+}
+
+
+
+}

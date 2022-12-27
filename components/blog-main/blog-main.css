@@ -1,0 +1,31 @@
+
+
+.main-light p {
+
+    text-align: right;
+}
+
+.main-dark p {
+
+    text-align: right;
+}
+.main-light{
+
+    height:100vh;
+    border: 1px solid lightgray;
+    display: block;
+    z-index: -1;
+overflow: hidden;
+
+}
+
+.main-dark{
+   
+    height:100vh;
+   /* border: 1px solid lightgray;*/
+    display: block;
+    z-index: -1;
+    background-color: rgba(8, 1, 26, 0.877);
+    color:white;
+    overflow: hidden;
+}

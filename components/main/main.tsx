@@ -6,6 +6,9 @@ const main = () => {
 const {darkMode} =useGlobalContext()
     return (
         <div className={`main-${darkMode}`}>
+        
+            < h1  >Wesley Kelly</h1>
+            <h2>Software Engineer</h2>
          
         </div>
     )

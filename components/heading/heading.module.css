@@ -4,16 +4,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height:8vh ;
+  min-height:10vh ;
   
-    line-height: 24px
+    /*line-height: 24px;*/
 }
 
 
 
 .logo{
     /*border:1px blue solid;*/
-font-size: 3em;
+font-size: 2em;
 
 
 }
@@ -33,7 +33,9 @@ color:brown
 
 }
 .buttonLinks{
-    display: none;
+    display: block;
+    /*border: 1px solid red;*/
+ 
 }
 
 
@@ -45,10 +47,20 @@ color:brown
 display:none ;
 }
 
-.buttonLinks{
+/*.buttonLinks{
     display: block;
+}*/
+
+
+
 }
 
+@media screen  and (width <=414px){
 
 
+    .logo{ font-size: 15px;
+   
+    
+    }
+    
 }

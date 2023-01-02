@@ -1,34 +1,72 @@
 .dark {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
- /* border: 1px solid lightgrey;*/
-
+  /* border: 1px solid lightgrey;*/
 }
 
 .menu {
   color: black;
-  display: none;
+  float: right;
   height: 100vh;
-
-  /*width:0em;*/
-  transition-duration: 2s;
+  margin-top: auto;
+  width: 0;
+  transition-duration: 1.8s;
   transition-property: width;
-  background-color: black;
-  opacity: 0.8;
-  border-radius: 5px;
-  z-index: 2;
+  /*background-color: rgb(202, 33, 33);*/
+
   cursor: pointer;
+  /*width:0*/
 }
 .show {
   display: inline-table;
-  width: 300px;
+  width: 30vw;
+  /*border: green 1px solid;*/
+
+  z-index: -12;
+ opacity: 0.8;
+  backdrop-filter:  blur(10px);
+ 
 }
-.hide {
-  display: none;
+.hide{
+
+  background-color: rgb(206, 52, 52);
 }
+
+
+li {
+  list-style: none;
+  width: 0;
+}
+
 .links {
+  color: black;
+  /*border: pink solid 1px;*/
+  text-align: center;
+  list-style: none;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*background-color: black;*/
+  text-decoration: none;
+  font-size: 1em;
+
+  transition-duration: 1.8s;
+  transition-property: width;
+  width: 0;
+  opacity: 0.8;
+}
+.hideMenu {
+  width: 0vw;
+ 
+}
+
+.showMenu {
+  width: 30vw;
+  display: inline-table;
+}
+.links show {
   color: white;
-  /* border: pink solid 1px;*/
+  /*border: green solid 1px;8*/
   text-align: center;
   list-style: none;
   padding-right: 20px;
@@ -37,18 +75,19 @@
   background-color: black;
   text-decoration: none;
   font-size: 2em;
+  display: inline-table;
 }
-.links:hover{
-
-  color:dodgerblue
+.links:hover {
+  color: dodgerblue;
 }
 .linksButton {
   align-items: right;
 }
 .showButton {
-  width: 3vw;
+  width: 50px;
   display: block;
-  margin-right: 1em;
+  /*margin-right: 1em;*/
+  height: 36px;
 }
 
 .hideButton {
@@ -56,15 +95,31 @@
   display: none;
 }
 
-
-
-.darkModeIcon{
-
-    width: 4vw;
-
+.darkModeIcon {
+  width: 4vw;
+}
+ul {
+  padding: 0;
 }
 @media screen and (min-width: 1500px) {
   .showDisplay {
     display: none;
+  }
+}
+
+@media screen and (width <=414px) {
+  .showMenu {
+    height: 50%;
+    width: 100vw;
+    display: inline-table;
+  }
+
+  .links {
+    border: 1px orange 1px solid;
+    text-align: right;
+  }
+
+  .darkModeIcon {
+    width: 10vw;
   }
 }

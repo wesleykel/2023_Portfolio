@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <>
      <Heading/>
-       <Main/>
+      
         </>
     )
 }

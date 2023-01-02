@@ -5,7 +5,7 @@ const Blog = () => {
     return (
         <>
        <Heading/>
-       <BlogMain/>
+       
        </>
     )
 }

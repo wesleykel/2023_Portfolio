@@ -118,6 +118,7 @@ window.removeEventListener("resize",()=>setScreenSize(1))
         </ul>
        
       </div>
+      
       <ul className={"menu " + mode} >
        <li  ><Link className={"links "+ menu} to="/">Home</Link></li>
          <li ><Link className={"links "+ menu}  to="/about">About</Link></li>

@@ -1,11 +1,11 @@
 
 
-.main-light p {
+.main-light h1 {
 
     text-align: right;
 }
 
-.main-dark p {
+.main-dark h1 {
 
     text-align: right;
 }
@@ -15,7 +15,7 @@
     border: 1px solid lightgray;
     display: block;
     z-index: -1;
-
+width: 100vw;
 
 }
 

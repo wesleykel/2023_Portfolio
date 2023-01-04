@@ -92,11 +92,11 @@ window.removeEventListener("resize",()=>setScreenSize(1))
           <div className={style.logo}>www.wesleykelly.dev</div>
         </ul>
 
-        <ul className={style.links}>
+       { /*<ul className={style.links}>
           <li className={style.li}>About</li>
           <li className={style.li}> Projects</li>
           <li className={style.li}>Contact</li>
-        </ul>
+  </ul>*/}
     
         <ul className={style.buttonLinks}>
           {darkMode === "light" ? (

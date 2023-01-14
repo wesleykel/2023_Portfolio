@@ -86,7 +86,7 @@ window.removeEventListener("resize",()=>setScreenSize(1))
 */
 
   return (
-    <div className={darkMode} onMouseLeave={hideMenuNavBar}  >
+    <div className={darkMode} onMouseLeave={hideMenuNavBar} >
       <div className={style.wrapper}  >
         <ul>
           <div className={style.logo}>www.wesleykelly.dev</div>

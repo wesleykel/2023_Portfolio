@@ -1,5 +1,5 @@
 
-import {useGlobalContext} from "/Users/wesley/Desktop/Projects/LegoPortfolio/Portfolio/hooks/DMContext";
+import {useGlobalContext} from "../../hooks/DMContext";
 import { useLocation } from "react-router-dom";
 
 

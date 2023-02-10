@@ -3,7 +3,7 @@
   font-size: 16px;
   /*line-height: 24px;*/
   font-weight: 400;
-overflow: hidden;
+overflow:clip;
 
   /*font-synthesis: none;
   text-rendering: optimizeLegibility;

@@ -104,12 +104,14 @@ window.removeEventListener("resize",()=>setScreenSize(1))
               onClick={hideMenu}
               className={`${hideButton}`}
               src={burger}
+              alt={"burger menu  icon"}
             ></img>
           ) : (
             <img
               className={`${hideButton}`}
               onClick={hideMenu}
               src={whiteBurger}
+              alt={"burger menu  icon"}
             ></img>
           )}
         </ul>
@@ -148,12 +150,14 @@ window.removeEventListener("resize",()=>setScreenSize(1))
                 className="darkModeIcon"
                 onClick={userScreen}
                 src={lightBulb}
+                alt={"light bulb icon"}
               ></img>
             ) : (
               <img
                 className="darkModeIcon"
                 onClick={userScreen}
                 src={night}
+                alt={"moon icon"}
               ></img>
             )}
           </div>

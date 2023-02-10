@@ -112,16 +112,42 @@ ul {
 @media screen and (width <=414px) {
   .showMenu {
     height: 50%;
-    width: 100vw;
+    width: 50vw;
     display: inline-table;
   }
 
   .links {
     border: 1px orange 1px solid;
-    text-align: right;
+    text-align: left;
+    font-size:7vw;
+    padding-left:1em;
   }
 
   .darkModeIcon {
     width: 10vw;
+  }
+
+  .menu {
+   
+    width:0vw;
+    /*color: black;
+    float: right;
+    height: 100vh;
+    margin-top: auto;
+    width: 0;
+    transition-duration: 1.8s;
+    transition-property: width;
+    /*z-index: 4;*/
+   /* position: relative;*/
+  }
+  .show {
+    display: inline-table;
+    width: 80vw;
+    /*border: green 1px solid;*/
+   
+    z-index: 4;
+    background-color: rgba(26, 24, 24, 0.678);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
   }
 }

@@ -1,9 +1,9 @@
 
-import {useGlobalContext} from "/Users/wesley/Desktop/Projects/LegoPortfolio/Portfolio/hooks/DMContext.tsx";
+import {useGlobalContext} from "/Users/wesley/Desktop/Projects/LegoPortfolio/Portfolio/hooks/DMContext";
 import { useLocation } from "react-router-dom";
 
 
-const BreadCrumb = () => {
+const breadCrumb = () => {
 
   const {darkMode} =useGlobalContext()
 
@@ -20,10 +20,10 @@ console.log(darkMode)
   }
 
   
-
+return
 
 }
 
 
 
-  export default BreadCrumb
+  export default breadCrumb

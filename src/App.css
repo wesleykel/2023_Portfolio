@@ -52,6 +52,6 @@ padding-left:10px
 
         .home{
 
-            height:100vh
+           overflow-y:hidden;
         }
     }

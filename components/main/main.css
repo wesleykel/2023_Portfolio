@@ -1,20 +1,20 @@
 
 
 .main-light h1 {
-
-    text-align: right;
+z-index: 89;
+    text-align: center;
 }
 
 .main-dark h1 {
-
+    z-index: 89;
     text-align: right;
 }
 .main-light{
-
+border: 1px red solid;
     height:100vh;
-    border: 1px solid lightgray;
+    /*border: 1px solid lightgray;*/
     display: block;
-    z-index: -1;
+    z-index:auto;
 width: 100vw;
 
 }
@@ -24,7 +24,7 @@ width: 100vw;
     height:100vh;
    /* border: 1px solid lightgray;*/
     display: block;
-    z-index: -1;
+    z-index: -100;
     background-color: rgba(1, 10, 26, 0.877);
     color:white;
   

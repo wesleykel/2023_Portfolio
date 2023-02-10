@@ -15,12 +15,12 @@ console.log(darkMode)
 
 
 
-    return (<p className={`bc-${darkMode}`}>{location.pathname}</p>)
+    return <div className={`bc-${darkMode}`}>{location.pathname}</div>
 
   }
 
   
-return
+return null
 
 }
 

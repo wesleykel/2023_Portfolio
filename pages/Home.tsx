@@ -9,7 +9,7 @@ const Home = () => {
   const {darkMode} =useGlobalContext()
 
   return (
-  <>
+  <div className="home">
   <Heading />
   <BreadCrumb/>
  <div className={`main-${darkMode}`}>
@@ -19,7 +19,7 @@ const Home = () => {
 
 
   </div>
-  </>
+  </div>
   
   )
 

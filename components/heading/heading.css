@@ -33,6 +33,7 @@
   background-color: rgba(26, 24, 24, 0.678);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
+
   
 }
 
@@ -99,10 +100,15 @@ li {
 
 .darkModeIcon {
   width: 4vw;
+ 
 }
 ul {
   padding: 0;
 }
+
+
+
+
 @media screen and (min-width: 1500px) {
   .showDisplay {
     display: none;

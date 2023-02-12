@@ -12,15 +12,15 @@ const Home = () => {
   <div className="home">
   <Heading />
   <BreadCrumb/>
+  
  <div className={`main-${darkMode}`}>
   
-  <div  style={{ zIndex:"2",fontSize:"10vw",textAlign:"center", paddingTop:"20vh"}}>Wesley Kelly</div> 
+ <div  style={{ zIndex:"2",fontSize:"10vw",textAlign:"center", paddingTop:"20vh"}}>Wesley Kelly</div> 
   <div  style={{ fontSize:"4vw",padding:0,textAlign:"center"}}>Web Developer and Software Engineer</div> 
 
 
   </div>
   </div>
-  
   )
 
 

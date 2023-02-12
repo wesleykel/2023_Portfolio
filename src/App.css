@@ -53,6 +53,10 @@ padding-left:10px
 .home{
 
     border:2px solid red;
-    overflow:clipped;
+
+}
+.App{
+
+overflow:hidden;
 }
     }
